@@ -1,0 +1,2 @@
+class LocationsQueryData < ApplicationRecord
+end
