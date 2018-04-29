@@ -41,6 +41,10 @@
         dd
           = report['applicable_date']
         dt
+          | Weather
+        dd
+          img src="https://www.metaweather.com/static/img/weather/png/64/#{report['weather_state_abbr']}.png"
+        dt
           | Min Temp
         dd
           = report['min_temp']
